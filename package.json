@@ -1,0 +1,21 @@
+{
+  "name": "dossier_hafid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   "scripts": {
+    "test": "jest",
+    "test:unmocked": "jest index_unmocked.test.js",
+    "test:mocked": "jest index_mocked.test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@types/jest": "^26.0.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
